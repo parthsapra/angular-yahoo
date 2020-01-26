@@ -9,5 +9,8 @@ export class AppComponent  {
   user:YahooUser = new YahooUser();
   submit(){
     console.log(this.user);
+    if(this.user.firstName==""){
+      alert("dsfdsf");
+    }
   }
 }
