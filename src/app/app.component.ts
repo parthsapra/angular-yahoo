@@ -26,8 +26,5 @@ export class AppComponent  implements OnInit {
   }
   submit(){
     console.log(this.user);
-    if(this.user.firstName==""){
-      alert("dsfdsf");
-    }
   }
 }
